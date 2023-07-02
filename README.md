@@ -8,7 +8,7 @@ Usage is simple, for example:
     print(nums)
 ```
 
-It is not meant to be used in production really, since the better way to sort list is using built-in sorted function. This class could simply be made as the following (even though it makes no sense really):
+It is not meant to be used in production really, since the better way to sort list is using built-in sorted function. This class could simply be made as the following (even though it makes no sense in this case):
 
 ```
 class Sorter:
