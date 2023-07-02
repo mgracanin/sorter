@@ -19,4 +19,4 @@ class Sorter:
         self.data = sorted(self.data)
 ```
 
-But, you can use this for eduicational pruposes and try to improve on it. So, give it a try.
+But, you can use this for educational purposes and try to improve on it. So, give it a try.
