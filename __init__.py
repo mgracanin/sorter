@@ -86,10 +86,9 @@ class Sorter:
         elif algorithm == "quick_sort":
             self.quick_sort(0, len(self.data) - 1)
 
-
 if __name__ == "__main__":
     import random
 
-    brojevi = [x for x in random.sample(range(1000), 100)]
-    sorter = Sorter(brojevi).sort("quick_sort")
-    print(brojevi)
+    nums = [x for x in random.sample(range(1000), 100)]
+    Sorter(nums).sort("quick_sort")
+    print(nums)
